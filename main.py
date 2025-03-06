@@ -11,7 +11,7 @@ from default_data import card_data, group_data
 from orm_query import get_random_word, default_word, check_word, add_group, add_user, session, add_card#, orm_add_card
 
 #print('Start telegram bot...')
-TOKEN = "7458531442:AAH3-czwaW11l2SiszC0kKhVqEkRtHLLxRc"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 known_users = []
 userStep = {}
